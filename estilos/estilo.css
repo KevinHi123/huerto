@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: greenyellow;
+    border: 1px solid black;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  footer {
+    
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  div.tree-fill{
+    border: 1px solid black;
+    font-size: 40px;
+  }
+
+  div.whatsapp{
+    text-align: center;
+    color: green;
+    font-size: 30px;
+    display: inline;
+  }
+
+  div.twitter{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    display: inline;
+  }
+
+  div.facebook{
+    text-align: center;
+    color: cornflowerblue;
+    font-size: 30px;
+    display: inline;
+  }
+
+  div.tiktok{
+    text-align: center;
+    color: magenta;
+    font-size: 30px;
+    display: inline;
+  }
+
+  .block {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .item {
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  h2 {
+    margin: 10px ;
+  }
+
+  p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+
+
